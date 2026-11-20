@@ -11,6 +11,10 @@ from contracts import load_study, write
 
 def build(root):
     root = Path(root)
+    root.mkdir(parents=True, exist_ok=True)
+    (root / "SYNTHETIC.md").write_text(
+        (Path(__file__).resolve().parents[1] / "examples/SYNTHETIC.md").read_text()
+    )
     for name in ["survey", "longitudinal", "interview"]:
         out = root / name
         numeric = name == "longitudinal"
@@ -50,7 +54,7 @@ def build(root):
                 "partition_unit": "Fictional participant", "prediction_target": "Behavior distribution in the task",
                 "split_rationale": "Distinct fictional participants for construction, learning, and validation; repeated tasks stay together.",
                 "literature": [{"id": "fixture", "citation": "Synthetic fixture specification (not a publication)",
-                                "location": "../../SYNTHETIC.md", "status": "synthetic"}],
+                                "location": "../SYNTHETIC.md", "status": "synthetic"}],
                 "features": features,
                 "evaluation": {"metric": "mae" if numeric else "error_rate",
                                "outcome": {"type": "numeric", "minimum": 0, "maximum": 1} if numeric else

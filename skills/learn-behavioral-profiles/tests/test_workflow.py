@@ -32,6 +32,8 @@ class WorkflowTests(unittest.TestCase):
     def test_three_input_types_complete_workflow(self):
         for name in ["survey", "longitudinal", "interview"]:
             study = load_study(self.root / name / "study.json")
+            for reference in study["spec"]["literature"]:
+                self.assertTrue((study["path"].parent / reference["location"]).is_file())
             h, p = self.data(study=study)
             selection = select(study, h, p)
             self.assertTrue(selection["complete"])
