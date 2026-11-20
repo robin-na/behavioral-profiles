@@ -427,7 +427,9 @@
     {
       "file": "reproduction/assets/references.bib",
       "category": "bibliographic_metadata",
-      "upstream_sha256": "87712a626d7d521643ed96f7cc0b9b47737ac81df9b749925bfa8b32c2a8a4fd"
+      "upstream_sha256": "87712a626d7d521643ed96f7cc0b9b47737ac81df9b749925bfa8b32c2a8a4fd",
+      "selection": "Only references cited in data/published_tables.json",
+      "included_entries": 41
     },
     {
       "file": "reproduction/plotting/main_figures.py",
