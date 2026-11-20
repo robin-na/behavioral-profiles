@@ -1,0 +1,8 @@
+condition,learning_delta_wd,validation_delta_wd,learning_improvement,validation_improvement,dimension_id,panel
+singleton_b01,-0.035305,-0.055525,0.035305,0.055525,B01,bounds1120
+singleton_b02,0.008086,-0.012732,-0.008086,0.012732,B02,bounds1120
+singleton_b03,-0.093139,-0.101964,0.093139,0.101964,B03,bounds1120
+singleton_b04,-0.069874,-0.075789,0.069874,0.075789,B04,bounds1120
+singleton_b05,-0.067077,-0.089304,0.067077,0.089304,B05,bounds1120
+singleton_b06,-0.063565,-0.084223,0.063565,0.084223,B06,bounds1120
+singleton_b07,-0.017538,-0.022106,0.017538,0.022106,B07,bounds1120

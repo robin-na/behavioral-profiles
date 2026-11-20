@@ -1,0 +1,320 @@
+{
+  "fields": [
+    "family",
+    "analysis",
+    "condition",
+    "simulated_value",
+    "count"
+  ],
+  "datasets": [
+    {
+      "family": "public_goods",
+      "analysis": "generator_51",
+      "outputs": 750,
+      "unique_value_rows": 505,
+      "upstream_sha256": "b20beff1ee2991e0dafacde91a476b22feba5eb028bd07dae4015292ef182ce1",
+      "exported_fields": [
+        "condition",
+        "predicted_future_normalized_efficiency"
+      ]
+    },
+    {
+      "family": "public_goods",
+      "analysis": "generic",
+      "outputs": 1246,
+      "unique_value_rows": 1187,
+      "upstream_sha256": "165bff02501244a8bf578f0b05f06f6932f1b204013e30624898ac064e6e8edb",
+      "exported_fields": [
+        "condition",
+        "predicted_future_normalized_efficiency"
+      ]
+    },
+    {
+      "family": "public_goods",
+      "analysis": "learning_additions",
+      "outputs": 565,
+      "unique_value_rows": 562,
+      "upstream_sha256": "789a5c45b0af6a4e70c2190fd91eebf64b3f0c1acb18ad74939d7f0d72f71e10",
+      "exported_fields": [
+        "condition",
+        "predicted_future_normalized_efficiency"
+      ]
+    },
+    {
+      "family": "public_goods",
+      "analysis": "learning_singletons",
+      "outputs": 1000,
+      "unique_value_rows": 995,
+      "upstream_sha256": "1d45972c325254844d54a71e861277a9bc88c5692e52da8be91b7611572c3013",
+      "exported_fields": [
+        "condition",
+        "predicted_future_normalized_efficiency"
+      ]
+    },
+    {
+      "family": "public_goods",
+      "analysis": "simulator_51",
+      "outputs": 750,
+      "unique_value_rows": 494,
+      "upstream_sha256": "41a3eac479f0468c743dced70fdff1573f72a21c8539524c2444749d162b15f3",
+      "exported_fields": [
+        "condition",
+        "predicted_future_normalized_efficiency"
+      ]
+    },
+    {
+      "family": "public_goods",
+      "analysis": "stopping",
+      "outputs": 336,
+      "unique_value_rows": 334,
+      "upstream_sha256": "bfd72331d3a76d45cec83df0a2e34857304b81255612b02891482b3c1054eb6f",
+      "exported_fields": [
+        "condition",
+        "predicted_future_normalized_efficiency"
+      ]
+    },
+    {
+      "family": "public_goods",
+      "analysis": "validation",
+      "outputs": 7750,
+      "unique_value_rows": 7380,
+      "upstream_sha256": "08abafceb72cd44bca6907904941d0004f51f4102b9a61313bc3d676b68d64e2",
+      "exported_fields": [
+        "condition",
+        "predicted_future_normalized_efficiency"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "cross_family",
+      "outputs": 332,
+      "unique_value_rows": 327,
+      "upstream_sha256": "8bc6b33a6d52b833b4ea95c02eff23da4f10a3de1233b064243be008841871bd",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "cross_family_two",
+      "outputs": 188,
+      "unique_value_rows": 186,
+      "upstream_sha256": "e2400ff67d2bf23d987534cc3aef55475715f8446cc5d0329554bcfa2890ccce",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "external",
+      "outputs": 281,
+      "unique_value_rows": 277,
+      "upstream_sha256": "994f4e3568c8b83b7cecd57de08db0356ad243fe3c2386c5b32b3ebfe0a0fd26",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "generator_mini",
+      "outputs": 3914,
+      "unique_value_rows": 2988,
+      "upstream_sha256": "45aab0f74da6465d96f53dac8b36852260af541ca0f8b31fbdd4724a63c13f48",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "generic",
+      "outputs": 239,
+      "unique_value_rows": 235,
+      "upstream_sha256": "ef0c336c88cc963b2d42190740df48624471378b5d837a88e8066d497f144342",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "interpolation",
+      "outputs": 320,
+      "unique_value_rows": 319,
+      "upstream_sha256": "f95b59642de77d729a898d8b10629402be2564423a75737906c4767319ba7c57",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "learning",
+      "outputs": 566,
+      "unique_value_rows": 552,
+      "upstream_sha256": "398c27e4f2c29f4e2b5979501ce3186db565fb8233de7511de9e3adc92167b47",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "learning_additions",
+      "outputs": 289,
+      "unique_value_rows": 287,
+      "upstream_sha256": "0cd4dee1e79f361af8fd9ed7fee266fc43a4d3d93a7616ce1bc94fd104a804d3",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "simulator_51",
+      "outputs": 105,
+      "unique_value_rows": 105,
+      "upstream_sha256": "4a1195ed8127786e9a7e1c697d597797969f9cd13026264faeee0dfe97753b1a",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "stopping",
+      "outputs": 244,
+      "unique_value_rows": 242,
+      "upstream_sha256": "9d42ebcf20aadd9f50421d85dc81eed0f6125c1bc0d9a77cd76d69af26d7c43a",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "bargaining",
+      "analysis": "validation",
+      "outputs": 959,
+      "unique_value_rows": 952,
+      "upstream_sha256": "0c2684c34ebf2c0da3e14bad6e7d2cca434e7ab7f0602b6227d001292a8274ec",
+      "exported_fields": [
+        "condition",
+        "final_surplus_ratio"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "cross_family",
+      "outputs": 6188,
+      "unique_value_rows": 271,
+      "upstream_sha256": "5ab5a8ace65f1b6e62e16da3dfebbd3b9dca2eadb05afae160ce808ce5a4fa12",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "cross_family_two",
+      "outputs": 3536,
+      "unique_value_rows": 154,
+      "upstream_sha256": "4cb74df5eff6c9ee6035b48bc29181401ab13e549ca0a19ed74cd5fe2138154c",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "external",
+      "outputs": 5304,
+      "unique_value_rows": 232,
+      "upstream_sha256": "ed680b5816c4c1733ac3e10fdd5a176b86cf67b824415d12409a1da3144f913b",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "generator_51",
+      "outputs": 2652,
+      "unique_value_rows": 115,
+      "upstream_sha256": "33f71c4747e8cfb9568b1919b70a67590759fc96facbd3e749440a7309459223",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "generic",
+      "outputs": 4420,
+      "unique_value_rows": 193,
+      "upstream_sha256": "844b1b7ef305704f959abe09bb505761e0b2147c3d68478498a0ad1735c5b053",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "learning",
+      "outputs": 5364,
+      "unique_value_rows": 335,
+      "upstream_sha256": "103dd697facb3f6b046ab3283ea7c36c5986a935a168c61adbd8aa0abb12a2b2",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "learning_rank2",
+      "outputs": 4768,
+      "unique_value_rows": 296,
+      "upstream_sha256": "5d764012df77c62915cdcbca219bb120c1d5c9a77ed12692d71d18f329ada4f4",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "learning_rank3",
+      "outputs": 2980,
+      "unique_value_rows": 185,
+      "upstream_sha256": "2e1e3a9b1774c0e176ddb879b2dd4ad9a8d810880fad566a6044820b47242bb8",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "simulator_51",
+      "outputs": 2652,
+      "unique_value_rows": 114,
+      "upstream_sha256": "0bda37c6ba0b85b8b4e6b6fe10eccbe426f6e0b83f27084e03c50a8fe9ef16dd",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    },
+    {
+      "family": "generalized_11_20",
+      "analysis": "validation",
+      "outputs": 10608,
+      "unique_value_rows": 460,
+      "upstream_sha256": "dc83d65df68c4d5cde1c4b36a09b7c3e6198d379fc6e0b37dc5e1aa5c5185700",
+      "exported_fields": [
+        "condition",
+        "choice"
+      ]
+    }
+  ],
+  "scope": "Unweighted counts of parsed numerical simulation outcomes. IDs, human outcomes, text and persona/profile records are excluded. These counts alone do not reconstruct the paper's paired or weighted human-comparison estimators."
+}

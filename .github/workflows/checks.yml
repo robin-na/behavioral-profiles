@@ -1,0 +1,37 @@
+name: Offline workflow and reproduction checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install reproduction dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Reproduce paper displays
+        run: python reproduction/reproduce.py
+      - name: Check released results and inputs
+        run: python -m unittest discover -s tests -v
+      - name: Check core skill
+        run: python -m unittest discover -s skills/learn-behavioral-profiles/tests -v
+      - name: Generate and exercise synthetic examples
+        run: |
+          python skills/learn-behavioral-profiles/scripts/make_examples.py --out /tmp/profile-examples
+          python skills/learn-behavioral-profiles/scripts/run_examples.py --examples /tmp/profile-examples --out /tmp/profile-demo
+  edsl:
+    runs-on: ubuntu-latest
+    env:
+      EDSL_RUN_VERSION_CHECK: 'False'
+      EDSL_LOG_DIR: /tmp/edsl-logs
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install optional EDSL dependency
+        run: python -m pip install -r skills/learn-behavioral-profiles/requirements-edsl.txt
+      - name: Check local EDSL export
+        run: python -m unittest discover -s skills/learn-behavioral-profiles/tests -p test_edsl.py -v

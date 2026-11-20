@@ -1,0 +1,58 @@
+feature_id	feature	numerical_value_percent	median	interquartile_range	learning_rank
+P01	Baseline cooperation propensity	100.0	9.0	[6.0, 10.0]	3
+P02	Costly contribution orientation	100.0	8.0	[6.0, 10.0]	6
+P03	Opportunistic withholding	100.0	1.0	[0.0, 4.0]	4
+P04	Peer-responsive cooperation	87.7	5.0	[1.0, 5.0]	8
+P05	Threshold cooperation	73.0	1.0	[0.0, 2.0]	10
+P06	Contribution volatility	98.7	1.0	[0.0, 5.0]	2
+P07	Directional learning trend	74.6	5.0	[5.0, 5.0]	---
+P08	Withdrawal after adverse peer behavior (Leading feature)	85.5	1.0	[0.0, 5.0]	1
+P09	Recovery after peer improvement	44.5	7.0	[6.0, 8.0]	---
+P10	Endgame contribution change	89.0	5.0	[5.0, 5.0]	7
+P11	Initial cooperative optimism	100.0	10.0	[5.0, 10.0]	11
+P12	Exploitation sensitivity	74.5	2.0	[0.0, 6.0]	5
+P13	Rule comprehension (Second selected feature)	99.9	9.0	[8.0, 9.0]	9
+P14	Forward planning	51.8	5.0	[5.0, 6.0]	---
+P15	Punishment propensity	49.6	2.0	[0.0, 6.0]	16
+P16	Low-contributor punishment selectivity	23.7	8.0	[8.0, 9.0]	---
+P17	Punishment direction	25.8	9.0	[8.0, 10.0]	---
+P18	Cooperation response after received punishment	28.9	6.0	[5.0, 8.0]	---
+P19	Reward propensity	49.3	0.0	[0.0, 5.0]	18
+P20	High-contributor reward selectivity	24.6	7.0	[3.0, 8.0]	---
+P21	Relationship-contingent reward	14.6	6.0	[2.0, 7.0]	---
+P22	Cooperation response after received reward	34.4	5.0	[5.0, 5.0]	---
+P23	Chat engagement	51.1	5.0	[0.0, 8.0]	13
+P24	Coordination leadership	47.8	2.0	[0.0, 6.0]	15
+P25	Commitment making	46.4	0.0	[0.0, 2.0]	19
+P26	Cooperation-norm appeals	46.9	0.0	[0.0, 3.0]	17
+P27	Responsive and affiliative communication	48.1	4.0	[0.0, 7.0]	14
+P28	Blame and conflict escalation	47.6	0.0	[0.0, 2.0]	12
+P29	Repair communication	31.2	0.0	[0.0, 1.0]	---
+P30	Message-action inconsistency	38.6	0.0	[0.0, 4.0]	---
+C01	Own-surplus protection	100.0	8.0	[5.0, 9.0]	5
+C02	Integrative trade search (Second selected feature)	100.0	5.0	[4.0, 6.0]	4
+C03	Preference for equal exchange quantities	98.6	5.0	[4.0, 7.0]	11
+C04	Relative-outcome concern	6.9	2.0	[2.0, 5.5]	---
+C05	Proposal claim level	100.0	7.0	[6.0, 8.0]	2
+C06	Acceptance-calibrated offer adaptation	97.2	5.0	[4.0, 6.0]	10
+C07	Package breadth (Leading feature)	100.0	6.0	[5.0, 7.0]	1
+C08	Exchange-ratio simplicity	100.0	8.0	[7.0, 9.0]	9
+C09	Inventory and option-value planning	100.0	5.0	[4.0, 7.0]	3
+C10	Own-surplus acceptance threshold	97.9	4.0	[3.0, 6.0]	14
+C11	Profitable-offer uptake	95.8	7.0	[5.0, 9.0]	15
+C12	Fairness-motivated rejection	3.5	2.0	[1.0, 2.0]	---
+C13	Strategic rejection and delay	34.0	2.0	[1.0, 3.0]	---
+C14	Counterpart-value belief updating	98.6	5.0	[3.0, 6.0]	8
+C15	Counterparty-contingent adaptation	39.6	2.0	[1.0, 3.0]	---
+C16	Relationship conditioning strength	32.6	1.0	[1.0, 2.0]	---
+C17	Endgame urgency	98.6	5.0	[3.0, 6.0]	6
+C18	Breakdown tolerance	99.3	5.0	[4.0, 6.0]	13
+C19	Own-payoff computation accuracy	100.0	8.0	[5.0, 9.0]	12
+C20	Feedback-based strategic adaptation	100.0	5.0	[4.0, 6.0]	7
+B01	Strategic iteration depth	12.0	2.0	[1.0, 4.0]	5
+B02	Opponent-belief sophistication and hedging	21.1	5.0	[1.0, 6.0]	7
+B03	Payoff and incentive sensitivity (Leading feature)	99.7	7.0	[6.0, 9.0]	1
+B04	Upper-endpoint salience	87.3	1.0	[0.0, 5.0]	2
+B05	Payoff-computation precision	96.8	5.0	[2.0, 8.0]	3
+B06	Bonus pursuit versus security	89.3	8.0	[1.0, 8.0]	4
+B07	Instruction comprehension and adherence (Second selected feature)	100.0	10.0	[5.0, 10.0]	6

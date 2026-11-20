@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using its results, and this software when adapting the workflow."
+title: "Behavioral profiles: workflow and aggregate reproduction package"
+type: software
+version: 0.1.0-rc1
+date-released: 2026-11-20
+authors:
+  - family-names: Na
+    given-names: Robin
+  - family-names: Zhu
+    given-names: Kehang
+  - family-names: Cross
+    given-names: Logan
+  - family-names: Bakker
+    given-names: Michiel A.
+preferred-citation:
+  type: unpublished
+  title: "Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior"
+  year: 2026
+  authors:
+    - family-names: Na
+      given-names: Robin
+    - family-names: Zhu
+      given-names: Kehang
+    - family-names: Cross
+      given-names: Logan
+    - family-names: Bakker
+      given-names: Michiel A.

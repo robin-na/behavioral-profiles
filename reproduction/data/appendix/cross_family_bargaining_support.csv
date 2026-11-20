@@ -1,0 +1,7 @@
+source_family,profile_size,condition,usable_games,common_cohorts,human_reference,anchor
+pgg,selected,foreign_pgg_selected,47,23,0.0579633159714335,0.5451005306130963
+pgg,two_feature,foreign_pgg_two_feature,46,22,0.0588617407574833,0.5451005306130963
+pgg,complete,foreign_pgg_complete,45,21,0.059357287923304,0.5451005306130963
+bounds1120,selected,foreign_bounds1120_selected,48,24,0.0575502133858409,0.5451005306130963
+bounds1120,two_feature,foreign_bounds1120_two_feature,46,22,0.0586660458999547,0.5451005306130963
+bounds1120,complete,foreign_bounds1120_complete,48,24,0.0575502133858409,0.5451005306130963

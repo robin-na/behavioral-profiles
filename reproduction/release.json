@@ -1,0 +1,443 @@
+{
+  "release_date": "2026-11-20",
+  "paper_title": "Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior",
+  "paper_version": "2026-10-31.1 arXiv source snapshot",
+  "paper_tex_sha256": "c52c1cfa7ca2122a32555af1a019ec848f015b5b9d302c8065ff44cfe96a595b",
+  "paper_pdf_sha256": "a0a3934ae3ac2de06facc287eb7fd31004e78910a77a822c572552473240d33d",
+  "main_figures": 4,
+  "appendix_figures": 1,
+  "main_tables": 2,
+  "appendix_tables": 13,
+  "contains_human_records": false,
+  "contains_persona_or_individual_profile_records": false,
+  "new_model_calls_required": false,
+  "full_raw_data_statistical_reproduction": false,
+  "inputs": [
+    {
+      "file": "skills/learn-behavioral-profiles/.gitignore",
+      "category": "reusable_skill",
+      "upstream_sha256": "c998998382ffd57ca08a2dd497952490b95eb1fa27303efcbf2eb413af8f3548"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/SKILL.md",
+      "category": "reusable_skill",
+      "upstream_sha256": "d8a1f15ae2ed389b020f8fbe59d9247c2002fed66e00b3475580241620c47765"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/examples/SYNTHETIC.md",
+      "category": "reusable_skill",
+      "upstream_sha256": "5eeff736858096ad5d694e6bb384f11f5abe2d512a3174248fbd1cb77c5546b1"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/references/contracts.md",
+      "category": "reusable_skill",
+      "upstream_sha256": "aaa9e364acf659dfc4932b314896924ef98bed39373a20390fd73b2fbefdcd6c"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/references/edsl.md",
+      "category": "reusable_skill",
+      "upstream_sha256": "8a229b4ca40f95168f08637a5e6f9dc5e7760b34496c36ab59806d1b8e2af57b"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/references/literature.md",
+      "category": "reusable_skill",
+      "upstream_sha256": "eb13240769f4819d8988756f5601400b7fce7d04a286effe380edf3f62c11116"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/requirements-edsl.txt",
+      "category": "reusable_skill",
+      "upstream_sha256": "5ade86ec91030f3656ab5c5e5036da60e9b94cc058d82bd384b7f79e39ea854b"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/scripts/contracts.py",
+      "category": "reusable_skill",
+      "upstream_sha256": "50e05e237a10faa13553d1fffdb9ac6f2bb7b42b27421b774ab42a25cf590063"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/scripts/edsl_export.py",
+      "category": "reusable_skill",
+      "upstream_sha256": "16b5b266700cf05db806c7accb3408707028a823b87ba4ebfe7eb2b3239068d7"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/scripts/evaluation.py",
+      "category": "reusable_skill",
+      "upstream_sha256": "b745563f4c5c3fbd953a0bbb514e11eb0842ac3afed4a37cc919385ef9087fe3"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/scripts/make_examples.py",
+      "category": "reusable_skill",
+      "upstream_sha256": "fbf9358772c7e2c3f11441663ae07d5c714cf8a2f397fd9e505ff2bb2775e006"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/scripts/run_examples.py",
+      "category": "reusable_skill",
+      "upstream_sha256": "7dfd7d9f75435cbc22dfeb0791a8ea32825ec905829ab7ef9ef6c699b5eb5f99"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/scripts/workflow.py",
+      "category": "reusable_skill",
+      "upstream_sha256": "885d799b437c24a77308d2616ad79d0b59ea185c11bfbf2438fcc53d9d51f2ce"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/tests/test_edsl.py",
+      "category": "reusable_skill",
+      "upstream_sha256": "465e9f734589945725b491898fd2dbc80046fa1cb576382f6da1d02f7ac5b980"
+    },
+    {
+      "file": "skills/learn-behavioral-profiles/tests/test_workflow.py",
+      "category": "reusable_skill",
+      "upstream_sha256": "43011c13057f78eef2f7afbde18242147215fb60f19f1dc85794d366f8c0554a"
+    },
+    {
+      "file": "reproduction/data/main/figure3_heldout_results.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "d06fbede3a4313519d7d3381fed4e2750ef1635da40bd57e604ef638eb00d7db",
+      "columns": [
+        "family",
+        "condition",
+        "display_label",
+        "category",
+        "display_order",
+        "alignment",
+        "ci_low",
+        "ci_high",
+        "retained_target_units",
+        "independent_units",
+        "unit",
+        "bootstrap_draws",
+        "anchor_wd",
+        "human_reference_wd",
+        "support_scope"
+      ],
+      "rows": 21
+    },
+    {
+      "file": "reproduction/data/main/figure5_cross_domain_portability.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "eb757a18038f5cb44d7f7e9dd2af8f1ad8730189f2470d86ba2495b7db413003",
+      "columns": [
+        "profile_scope",
+        "source_domain",
+        "target_domain",
+        "condition",
+        "alignment",
+        "target_no_profile_alignment",
+        "comparison_status",
+        "paired_common_units",
+        "paired_native_loss_delta_vs_no",
+        "paired_ci_low",
+        "paired_ci_high"
+      ],
+      "rows": 27
+    },
+    {
+      "file": "reproduction/data/main/figure3_pgg_singleton_transfer.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "c405a5490420846b31a180041d5f3bc69bbdf33e11f7e06c862fdbd37eef6327",
+      "columns": [
+        "dimension_id",
+        "learning_delta",
+        "validation_delta",
+        "paired_games",
+        "bootstrap_ci_low",
+        "bootstrap_ci_high",
+        "learning_rank",
+        "validation_rank",
+        "learning_improvement",
+        "validation_improvement",
+        "panel"
+      ],
+      "rows": 19
+    },
+    {
+      "file": "reproduction/data/main/figure3_chip_family_singleton_transfer.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "b7065a60225633abbe23e46ae86f82c91627259c23a4073be25e897c42af094e",
+      "columns": [
+        "condition",
+        "learning_delta",
+        "validation_delta",
+        "dimension_id",
+        "learning_improvement",
+        "validation_improvement",
+        "panel"
+      ],
+      "rows": 15
+    },
+    {
+      "file": "reproduction/data/main/figure3_bounds1120_singleton_transfer.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "5f5144b6e38e1ea17f4ff1cea801cd9b3b971af6445d1365e1db5042493fa905",
+      "columns": [
+        "condition",
+        "learning_delta_wd",
+        "validation_delta_wd",
+        "learning_improvement",
+        "validation_improvement",
+        "dimension_id",
+        "panel"
+      ],
+      "rows": 7
+    },
+    {
+      "file": "reproduction/data/appendix/figure_redundancy_correlations.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "29d05d26810e0a391a254577e5dbc047a65ce2fe6a8fb6299233663e30339d17",
+      "columns": [
+        "game_family",
+        "feature_left",
+        "feature_right",
+        "spearman_rho",
+        "pairwise_numeric_n",
+        "left_component",
+        "right_component",
+        "left_representative",
+        "right_representative",
+        "left_selection_order",
+        "right_selection_order"
+      ],
+      "rows": 586
+    },
+    {
+      "file": "reproduction/data/appendix/appendix_learning_comparisons.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "6ee1a0f6a9d8602be7f5ece1f4a181950160721e6272c04ed8e775baa83cedea",
+      "columns": [
+        "family",
+        "current_profile",
+        "addition",
+        "comparison",
+        "current_loss",
+        "candidate_loss",
+        "change",
+        "common_games",
+        "chosen"
+      ],
+      "rows": 103
+    },
+    {
+      "file": "reproduction/data/appendix/appendix_model_comparisons.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "2c5bb805cf1a4039217377fcfc0988f4f9fab0d5b0f52ae9887e6b7443853fdf",
+      "columns": [
+        "game_family",
+        "profile_generator",
+        "simulator",
+        "evaluated_compact_profile",
+        "selection_path",
+        "compact_alignment",
+        "no_profile_alignment",
+        "complete_profile_alignment",
+        "compact_minus_no_native_delta",
+        "compact_minus_no_ci_low",
+        "compact_minus_no_ci_high",
+        "compact_minus_complete_native_delta",
+        "compact_minus_complete_ci_low",
+        "compact_minus_complete_ci_high",
+        "evaluation_units",
+        "interpretation"
+      ],
+      "rows": 9
+    },
+    {
+      "file": "reproduction/data/appendix/appendix_paired_comparisons.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "fd35d3cb599ca78d01f3ca16f677486979a2714aa897a10598f63428d3d0b729",
+      "columns": [
+        "family",
+        "comparison",
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "independent_units",
+        "bootstrap_draws"
+      ],
+      "rows": 18
+    },
+    {
+      "file": "reproduction/data/appendix/table_s1_all_dimension_identifiability_distributions.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "0b893c7dcd8c03dbe5ab379c53994f8cb0af33b174bc4e45115eb21c9e1da08f",
+      "columns": [
+        "study",
+        "dimension_id",
+        "dimension",
+        "figure_display_label",
+        "figure_selection_role",
+        "primary_analysis_status",
+        "eligible_for_singleton_screen",
+        "identified_weight",
+        "total_weight",
+        "identification_rate",
+        "score_mean",
+        "score_sd",
+        "score_q25",
+        "score_median",
+        "score_q75",
+        "score_min",
+        "score_max",
+        "learning_singleton_rank",
+        "learning_improvement_native"
+      ],
+      "rows": 57
+    },
+    {
+      "file": "reproduction/data/appendix/table_s4_bounds1120_design_diagnostics.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "62c9b5ca48143cf4ed911c1640042c8ce144e97136841feda8df476c9fa28ffd",
+      "columns": [
+        "condition",
+        "n_designs",
+        "n_bonus_rule_families",
+        "n_human_choices",
+        "design_level_wasserstein_equal_family",
+        "smoothed_realized_action_log_loss",
+        "uniform_mixture_epsilon"
+      ],
+      "rows": 12
+    },
+    {
+      "file": "reproduction/data/appendix/pgg_alignment_paired_alignment.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "5919d54d4ed7071be24f6e9a5deed28b06545d40a9bb67f8d498d3b5b5185a7e",
+      "columns": [
+        "group",
+        "left_condition",
+        "right_condition",
+        "alignment_difference",
+        "ci_low",
+        "ci_high",
+        "distributional_loss_difference",
+        "loss_ci_low",
+        "loss_ci_high",
+        "common_games",
+        "bootstrap_draws",
+        "status"
+      ],
+      "rows": 20
+    },
+    {
+      "file": "reproduction/data/appendix/calibration.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "bb44bc69023ef7f5c7ae4a88ee431f87a40621cc67073c5cc9f830cbb2d08a2e",
+      "columns": [
+        "arm",
+        "domain",
+        "learning_units",
+        "learning_groups",
+        "validation_units",
+        "validation_groups",
+        "uniform_loss",
+        "calibrated_loss",
+        "delta_calibrated_minus_uniform",
+        "percent_change",
+        "bootstrap_delta_ci_low",
+        "bootstrap_delta_ci_high",
+        "bootstrap_probability_calibrated_better",
+        "bootstrap_calibrated_loss_ci_low",
+        "bootstrap_calibrated_loss_ci_high",
+        "ess",
+        "ess_ratio",
+        "shrinkage_exponent",
+        "minimum_weight",
+        "maximum_weight"
+      ],
+      "rows": 9
+    },
+    {
+      "file": "reproduction/data/appendix/cross_family_bargaining_support.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "3ffe54192c8289ff73a99b0dc255480732d5e8a9421195e005f7f961139f0810",
+      "columns": [
+        "source_family",
+        "profile_size",
+        "condition",
+        "usable_games",
+        "common_cohorts",
+        "human_reference",
+        "anchor"
+      ],
+      "rows": 6
+    },
+    {
+      "file": "reproduction/data/appendix/interpolation_alignment.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "8d23d3ca2c6cb8d95bd35aa2c0fb4e95a065937e40475ef7bfceaabfaaea617e",
+      "columns": [
+        "suite",
+        "family",
+        "condition",
+        "loss",
+        "absolute_error",
+        "anchor",
+        "human_reference",
+        "alignment"
+      ],
+      "rows": 19
+    },
+    {
+      "file": "reproduction/data/appendix/interpolation_comparisons.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "4f4a5b47b58cc7946fa92a67c891c707d8dc9f87d0453273ea549652b15d9941",
+      "columns": [
+        "condition",
+        "common_games",
+        "treatment_cells",
+        "condition_wd",
+        "no_persona_wd",
+        "delta_wd_vs_no_persona",
+        "bootstrap_ci_low",
+        "bootstrap_ci_high",
+        "bootstrap_iterations",
+        "bootstrap_probability_better"
+      ],
+      "rows": 18
+    },
+    {
+      "file": "reproduction/data/appendix/observation_counts.csv",
+      "category": "aggregate_statistics",
+      "upstream_sha256": "1bb6799bfa4779ae022244b780ef802c4e8ad4c3e0603826a9c7896251ed691e",
+      "columns": [
+        "suite",
+        "condition",
+        "usable_simulation_units",
+        "parsed_rows",
+        "represented_cohorts",
+        "complete_cohorts",
+        "human_choices",
+        "human_designs"
+      ],
+      "rows": 249
+    },
+    {
+      "file": "reproduction/data/appendix/feature_codebooks.tsv",
+      "category": "published_ancillary_table",
+      "upstream_sha256": "51506496a0e36d8ad55d610ebe0472c378c118e0e7538fc589b5a81efc43710c"
+    },
+    {
+      "file": "reproduction/data/appendix/feature_identification.tsv",
+      "category": "published_ancillary_table",
+      "upstream_sha256": "eddcdb0094b3309268335589eafb41761ee748507abf6f875c1abe8598e888cb"
+    },
+    {
+      "file": "reproduction/assets/figure_1_framework.png",
+      "category": "authored_diagram",
+      "upstream_sha256": "fa53d28bfae4d8e4f96f655a40a04f415ad9b2a593b896236b804d1aaa4595c8"
+    },
+    {
+      "file": "reproduction/assets/references.bib",
+      "category": "bibliographic_metadata",
+      "upstream_sha256": "87712a626d7d521643ed96f7cc0b9b47737ac81df9b749925bfa8b32c2a8a4fd"
+    },
+    {
+      "file": "reproduction/plotting/main_figures.py",
+      "category": "publication_plot_code",
+      "upstream_sha256": "9e76cacb976de98a5a094223fdbd308713d6ae18b3cf622409c788acae310cbf"
+    },
+    {
+      "file": "reproduction/plotting/redundancy.py",
+      "category": "publication_plot_code",
+      "upstream_sha256": "91494d0d5dc985df0bbb7353235f822121ef0753d7969bd139e395e3838ad662"
+    }
+  ]
+}

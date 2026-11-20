@@ -1,0 +1,58 @@
+study,dimension_id,dimension,figure_display_label,figure_selection_role,primary_analysis_status,eligible_for_singleton_screen,identified_weight,total_weight,identification_rate,score_mean,score_sd,score_q25,score_median,score_q75,score_min,score_max,learning_singleton_rank,learning_improvement_native
+pgg,P01,Baseline cooperation propensity,Baseline cooperation propensity,most_identifiable_remaining,retained,True,3691,3691,1.0,7.626388512598212,2.9895414989792193,6.0,9.0,10.0,0.0,10.0,3.0,0.141453469676911
+pgg,P02,Costly contribution orientation,,not_displayed,retained,True,3690,3691,0.999729070712544,7.698644986449865,2.579830734606988,6.0,8.0,10.0,0.0,10.0,6.0,0.1344952120547791
+pgg,P03,Opportunistic withholding,,not_displayed,retained,True,3691,3691,1.0,2.3622324573286373,2.809719902261785,0.0,1.0,4.0,0.0,10.0,4.0,0.1390840319890716
+pgg,P04,Peer-responsive cooperation,,not_displayed,retained,True,3237,3691,0.8769981034949879,3.4905776953969725,2.5756975126694477,1.0,5.0,5.0,0.0,9.0,8.0,0.1253028504528158
+pgg,P05,Threshold cooperation,,not_displayed,retained,True,2695,3691,0.7301544296938499,1.4664192949907235,1.685770519224577,0.0,1.0,2.0,0.0,7.0,10.0,0.0961093305993542
+pgg,P06,Contribution volatility,,not_displayed,retained,True,3644,3691,0.9872663234895692,2.670142700329309,2.8922998345770368,0.0,1.0,5.0,0.0,10.0,2.0,0.1431559321717573
+pgg,P07,Directional learning trend,,not_displayed,retained,False,2752,3691,0.7455973990788404,4.885901162790698,1.0517449794789195,5.0,5.0,5.0,0.0,9.0,,
+pgg,P08,Withdrawal after adverse peer behavior,Withdrawal after adverse peer behavior,selected_first,retained,True,3155,3691,0.8547819019235979,2.3898573692551506,2.7735721008037535,0.0,1.0,5.0,0.0,10.0,1.0,0.14879593675497
+pgg,P09,Recovery after peer improvement,,not_displayed,retained,False,1641,3691,0.4445949607152533,6.10054844606947,2.746268811786758,6.0,7.0,8.0,0.0,10.0,,
+pgg,P10,Endgame contribution change,,not_displayed,retained,True,3286,3691,0.8902736385803305,5.115642118076689,2.006688147293998,5.0,5.0,5.0,0.0,10.0,7.0,0.132072232404895
+pgg,P11,Initial cooperative optimism,,not_displayed,retained,True,3691,3691,1.0,7.482254131671634,3.5445681059342338,5.0,10.0,10.0,0.0,10.0,11.0,0.078978508421091
+pgg,P12,Exploitation sensitivity,,not_displayed,retained,True,2749,3691,0.7447846112164725,3.422335394688978,3.0088186504726115,0.0,2.0,6.0,0.0,10.0,5.0,0.1376817747411539
+pgg,P13,Rule comprehension,Rule comprehension,selected_second,retained,True,3686,3691,0.99864535356272,8.820944112859468,0.6592188430563031,8.0,9.0,9.0,4.0,10.0,9.0,0.1217698419239049
+pgg,P14,Forward planning,,not_displayed,retained,False,1911,3691,0.5177458683283663,5.380429094714809,1.238326559429184,5.0,5.0,6.0,0.0,9.0,,
+pgg,P15,Punishment propensity,,not_displayed,retained,True,1829,3691,0.4955296667569764,3.012028430836523,3.338701876653696,0.0,2.0,6.0,0.0,10.0,16.0,-0.0257459708941719
+pgg,P16,Low-contributor punishment selectivity,,not_displayed,retained,False,873,3691,0.2365212679490653,7.438717067583047,2.5216068267431724,8.0,8.0,9.0,0.0,10.0,,
+pgg,P17,Punishment direction,,not_displayed,retained,False,951,3691,0.2576537523706312,7.82018927444795,2.7473823438602416,8.0,9.0,10.0,0.0,10.0,,
+pgg,P18,Cooperation response after received punishment,,not_displayed,retained,False,1067,3691,0.2890815497155242,6.1283973758200565,3.0041223722219748,5.0,6.0,8.0,0.0,10.0,,
+pgg,P19,Reward propensity,,not_displayed,retained,True,1818,3691,0.4925494445949607,2.5187018701870185,3.228028390791611,0.0,0.0,5.0,0.0,10.0,18.0,-0.0278220150214319
+pgg,P20,High-contributor reward selectivity,,not_displayed,retained,False,909,3691,0.2462747222974803,5.526952695269527,3.167594038077085,3.0,7.0,8.0,0.0,10.0,,
+pgg,P21,Relationship-contingent reward,,not_displayed,retained,False,539,3691,0.1460308859387699,5.007421150278293,2.58867603763531,2.0,6.0,7.0,0.0,9.0,,
+pgg,P22,Cooperation response after received reward,,not_displayed,retained,False,1270,3691,0.344080195069087,4.68503937007874,2.1641342303456903,5.0,5.0,5.0,0.0,10.0,,
+pgg,P23,Chat engagement,,not_displayed,retained,True,1885,3691,0.510701706854511,4.662599469496021,3.790215888156321,0.0,5.0,8.0,0.0,10.0,13.0,0.0053384605114286
+pgg,P24,Coordination leadership,,not_displayed,retained,True,1764,3691,0.4779192630723381,2.9846938775510203,3.035745726699356,0.0,2.0,6.0,0.0,10.0,15.0,-0.0211871831434151
+pgg,P25,Commitment making,,not_displayed,retained,True,1711,3691,0.4635600108371715,1.5558153126826415,2.5649277298368993,0.0,0.0,2.0,0.0,10.0,19.0,-0.065043945560326
+pgg,P26,Cooperation-norm appeals,,not_displayed,retained,True,1731,3691,0.468978596586291,1.8139803581744656,2.5873644970569862,0.0,0.0,3.0,0.0,9.0,17.0,-0.0260363843388267
+pgg,P27,Responsive and affiliative communication,,not_displayed,retained,True,1777,3691,0.4814413438092658,3.7495779403489022,2.97575668471508,0.0,4.0,7.0,0.0,9.0,14.0,-0.0189308670908698
+pgg,P28,Blame and conflict escalation,,not_displayed,retained,True,1757,3691,0.4760227580601463,1.261809903244166,2.2002182647080653,0.0,0.0,2.0,0.0,10.0,12.0,0.0325889053497743
+pgg,P29,Repair communication,,not_displayed,retained,False,1151,3691,0.3118396098618261,1.311033883579496,2.3607435747262437,0.0,0.0,1.0,0.0,8.0,,
+pgg,P30,Message-action inconsistency,,not_displayed,excluded_after_semantic_evidence_audit,False,1424,3691,0.3858033053373069,2.056179775280899,3.0008783379439965,0.0,0.0,4.0,0.0,10.0,,
+chip,C01,Own-surplus protection,,not_displayed,retained,True,144,144,1.0,6.930555555555555,2.2566345941153223,5.0,8.0,9.0,1.0,10.0,5.0,0.0927963646833931
+chip,C02,Integrative trade search,Integrative trade search,selected_second,retained,True,144,144,1.0,5.173611111111111,1.2546018686282243,4.0,5.0,6.0,1.0,8.0,4.0,0.0949510232937577
+chip,C03,Facial equality preference,,not_displayed,retained,True,142,144,0.9861111111111112,5.542253521126761,2.0611197539086343,4.0,5.0,7.0,2.0,10.0,11.0,0.014314295187792
+chip,C04,Relative-outcome concern,,not_displayed,retained,False,10,144,0.0694444444444444,3.7,2.282542442102666,2.0,2.0,5.5,2.0,8.0,,
+chip,C05,Proposal claim level,Proposal claim level,most_identifiable_remaining,retained,True,144,144,1.0,6.416666666666667,1.6051133570215186,6.0,7.0,8.0,2.0,9.0,2.0,0.1259451000370297
+chip,C06,Acceptance-calibrated offer adaptation,,not_displayed,retained,True,140,144,0.9722222222222222,4.864285714285714,1.8485929563771863,4.0,5.0,6.0,1.0,9.0,10.0,0.0269517258069552
+chip,C07,Package breadth,Package breadth,selected_first,retained,True,144,144,1.0,6.027777777777778,1.4669717696123217,5.0,6.0,7.0,2.0,9.0,1.0,0.143601206319197
+chip,C08,Exchange-ratio simplicity,,not_displayed,retained,True,144,144,1.0,7.555555555555555,1.64898023107287,7.0,8.0,9.0,2.0,10.0,9.0,0.0418860779359392
+chip,C09,Inventory and option-value planning,,not_displayed,retained,True,144,144,1.0,5.284722222222222,1.6442796229337215,4.0,5.0,7.0,2.0,9.0,3.0,0.1244670062277737
+chip,C10,Own-surplus acceptance threshold,,not_displayed,retained,True,141,144,0.9791666666666666,4.48936170212766,1.5872587604791069,3.0,4.0,6.0,2.0,9.0,14.0,-0.0123776196238465
+chip,C11,Profitable-offer uptake,,not_displayed,retained,True,138,144,0.9583333333333334,6.971014492753623,2.47287320122872,5.0,7.0,9.0,1.0,10.0,15.0,-0.0699129255008551
+chip,C12,Fairness-motivated rejection,,not_displayed,retained,False,5,144,0.0347222222222222,2.4,1.8547236990991407,1.0,2.0,2.0,1.0,6.0,,
+chip,C13,Strategic rejection and delay,,not_displayed,retained,False,49,144,0.3402777777777778,2.061224489795918,1.3763032898030505,1.0,2.0,3.0,0.0,6.0,,
+chip,C14,Counterpart-value belief updating,,not_displayed,retained,True,142,144,0.9861111111111112,4.591549295774648,1.4877666861301404,3.0,5.0,6.0,1.0,8.0,8.0,0.0477987659822018
+chip,C15,Counterparty-contingent adaptation,,not_displayed,retained,False,57,144,0.3958333333333333,2.0526315789473686,1.5719141603229556,1.0,2.0,3.0,0.0,7.0,,
+chip,C16,Relationship conditioning strength,,not_displayed,retained,False,47,144,0.3263888888888889,1.702127659574468,1.7973371984632236,1.0,1.0,2.0,0.0,8.0,,
+chip,C17,Endgame urgency,,not_displayed,retained,True,142,144,0.9861111111111112,4.795774647887324,1.7301743476193627,3.0,5.0,6.0,1.0,8.0,6.0,0.0900593354559103
+chip,C18,Breakdown tolerance,,not_displayed,retained,True,143,144,0.9930555555555556,5.034965034965035,1.66583349184535,4.0,5.0,6.0,2.0,8.0,13.0,-0.0076791356145118
+chip,C19,Own-payoff computation accuracy,,not_displayed,retained,True,144,144,1.0,7.041666666666667,2.403339690236623,5.0,8.0,9.0,1.0,10.0,12.0,0.007319922105175
+chip,C20,Feedback-based strategic adaptation,,not_displayed,retained,True,144,144,1.0,4.986111111111111,1.63718131381988,4.0,5.0,6.0,2.0,8.0,7.0,0.082800793562532
+bounds1120,B01,Strategic iteration depth,,not_displayed,retained,True,200,1670,0.1197604790419161,2.21,1.8455080601287008,1.0,2.0,4.0,0.0,6.0,5.0,0.0353047667431578
+bounds1120,B02,Opponent-belief sophistication and hedging,,not_displayed,retained,True,352,1670,0.2107784431137724,3.4545454545454546,2.418720035797911,1.0,5.0,6.0,0.0,7.0,7.0,-0.0080864516881774
+bounds1120,B03,Payoff and incentive sensitivity,Payoff and incentive sensitivity,selected_first,retained,True,1665,1670,0.997005988023952,6.54054054054054,2.734004917881295,6.0,7.0,9.0,0.0,10.0,1.0,0.0931394602340201
+bounds1120,B04,Upper-endpoint salience,,not_displayed,retained,True,1458,1670,0.8730538922155688,2.0315500685871055,2.6103293677210475,0.0,1.0,5.0,0.0,9.0,2.0,0.0698739086285604
+bounds1120,B05,Payoff-computation precision,Payoff-computation precision,most_identifiable_remaining,retained,True,1616,1670,0.9676646706586828,4.85519801980198,3.102828908917777,2.0,5.0,8.0,0.0,10.0,3.0,0.0670772880603103
+bounds1120,B06,Bonus pursuit versus security,,not_displayed,retained,True,1491,1670,0.8928143712574851,5.634473507712944,3.6655801141486215,1.0,8.0,8.0,0.0,10.0,4.0,0.063565052597108
+bounds1120,B07,Instruction comprehension and adherence,Instruction comprehension and adherence,selected_second,retained,True,1670,1670,1.0,8.224550898203592,2.3982020976768386,5.0,10.0,10.0,1.0,10.0,6.0,0.0175376523765532
